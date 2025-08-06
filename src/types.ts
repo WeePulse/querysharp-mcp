@@ -18,9 +18,9 @@ export const getDatabaseFixesDtoOutSchema = z.object({
     z.object({
       uuid: z.string(),
       createdAt: z.string(),
-      queryFixType: z.enum(QueryFixType),
+      queryFixType: z.nativeEnum(QueryFixType),
       fixDescription: z.string(),
-      severity: z.enum(QueryFixSeverity),
+      severity: z.nativeEnum(QueryFixSeverity),
       guessMissingIndex: z
         .object({
           indexName: z.string(),

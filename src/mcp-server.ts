@@ -127,7 +127,7 @@ export class QuerysharpMcpServer {
 
                 return `## Fix ${index + 1}: ${fix.fixDescription}
 
-**Severity:** ${this.getSeverityEmoji(fix.severity)} ${fix.severity}
+**Severity:** ${this.getSeverityEmoji(fix.severity as QueryFixSeverity)} ${fix.severity}
 **Type:** ${fix.queryFixType}
 **Created:** ${new Date(fix.createdAt).toLocaleDateString()}
 
