@@ -35,9 +35,6 @@ jobs:
     - name: Install dependencies
       run: npm ci
       
-    - name: Run linting
-      run: npm run lint
-      
     - name: Run tests
       run: npm test
       
@@ -54,6 +51,9 @@ jobs:
     steps:
     - name: Checkout code
       uses: actions/checkout@v4
+
+    - name: Run linting
+      run: npm run lint
       
     - name: Setup Node.js
       uses: actions/setup-node@v4
