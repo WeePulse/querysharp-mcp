@@ -1,0 +1,83 @@
+{
+  "name": "querysharp-mcp",
+  "version": "1.0.0",
+  "description": "MCP server client for connecting to Querysharp database performance monitoring API",
+  "type": "module",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "bin": {
+    "querysharp-mcp": "build/index.js"
+  },
+  "files": [
+    "build/**/*",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node-dev --respawn --transpile-only src/index.ts",
+    "start": "node build/index.js",
+    "prepare": "husky install",
+    "prepublishOnly": "npm run build && npm test",
+    "test": "echo \"Error: no test specified\" && exit 0",
+    "lint": "eslint src/**/*.ts",
+    "lint:fix": "eslint src/**/*.ts --fix",
+    "clean": "rm -rf build",
+    "prepack": "npm run clean && npm run build"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "database",
+    "performance",
+    "postgresql",
+    "querysharp",
+    "optimization",
+    "sql",
+    "missing-indexes",
+    "query-optimization",
+    "cursor",
+    "claude"
+  ],
+  "author": {
+    "name": "Querysharp Team",
+    "email": "support@querysharp.com",
+    "url": "https://querysharp.com"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/querysharp/querysharp-mcp#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/querysharp/querysharp-mcp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/querysharp/querysharp-mcp/issues"
+  },
+  "engines": {
+    "node": "^18.0.0 || ^20.0.0 || ^22.0.0"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.17.1",
+    "zod": "^4.0.15",
+    "commander": "^14.0.0"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^19.8.1",
+    "@commitlint/config-conventional": "^19.8.1",
+    "@eslint/js": "^9.32.0",
+    "@types/node": "^24.2.0",
+    "eslint": "^9.32.0",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-unused-imports": "^4.1.4",
+    "husky": "^8.0.0",
+    "prettier": "^3.6.2",
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0",
+    "tsconfig-paths": "^4.2.0",
+    "typescript": "^5.9.2",
+    "typescript-eslint": "^8.39.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

@@ -1,0 +1,51 @@
+# Source files (only include built files)
+src/
+*.ts
+!*.d.ts
+
+# Development files
+.vscode/
+.husky/
+.git/
+.gitignore
+.cursorrules
+
+# Build artifacts and cache
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.npm
+.yarn-integrity
+
+# Environment and config files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.DS_Store
+
+# Testing
+coverage/
+.nyc_output
+*.lcov
+
+# Logs
+logs
+*.log
+
+# Development config files
+.eslintrc*
+.prettierrc*
+eslint.config.*
+tsconfig.json
+tsconfig.*.json
+
+# Development dependencies
+jest.config.*
+.commitlintrc*
+
+# Temporary files
+*.tmp
+*.temp 
