@@ -45,13 +45,13 @@
     "url": "https://querysharp.com"
   },
   "license": "MIT",
-  "homepage": "https://github.com/querysharp/querysharp-mcp#readme",
+  "homepage": "https://github.com/WeePulse/querysharp-mcp#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/querysharp/querysharp-mcp.git"
+    "url": "git+https://github.com/WeePulse/querysharp-mcp.git"
   },
   "bugs": {
-    "url": "https://github.com/querysharp/querysharp-mcp/issues"
+    "url": "https://github.com/WeePulse/querysharp-mcp/issues"
   },
   "engines": {
     "node": "^18.0.0 || ^20.0.0 || ^22.0.0"

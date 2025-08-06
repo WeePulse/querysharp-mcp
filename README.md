@@ -54,6 +54,12 @@ Querysharp is a database performance monitoring tool that identifies potential p
   - Query rewrite suggestions for better performance
   - Severity levels (Low, Medium, High, Critical)
 
+## 🔧 Requirements
+
+- **Node.js**: 18.0.0 or higher
+- **Querysharp Account**: Free signup at [querysharp.com](https://querysharp.com)
+- **PostgreSQL Database**: Connected to Querysharp for monitoring
+
 ## 🔧 Getting Your API Key
 
 1. Sign up at [Querysharp](https://querysharp.com)

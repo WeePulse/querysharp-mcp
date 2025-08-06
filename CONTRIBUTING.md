@@ -51,7 +51,7 @@ docs: update installation instructions
 ```
 ## Bug Reports
 
-We use GitHub issues to track public bugs. Report a bug by [opening a new issue](https://github.com/querysharp/querysharp-mcp/issues/new).
+We use GitHub issues to track public bugs. Report a bug by [opening a new issue](https://github.com/WeePulse/querysharp-mcp/issues/new).
 
 **Great Bug Reports** tend to have:
 
@@ -82,8 +82,8 @@ By contributing, you agree that your contributions will be licensed under the MI
 Feel free to reach out:
 
 - 📧 Email: support@querysharp.com
-- 🐛 Issues: [GitHub Issues](https://github.com/querysharp/querysharp-mcp/issues)
-- 💬 Discussions: [GitHub Discussions](https://github.com/querysharp/querysharp-mcp/discussions)
+- 🐛 Issues: [GitHub Issues](https://github.com/WeePulse/querysharp-mcp/issues)
+- 💬 Discussions: [GitHub Discussions](https://github.com/WeePulse/querysharp-mcp/discussions)
 
 ## Recognition
 
