@@ -3,6 +3,8 @@
 [![npm version](https://badge.fury.io/js/querysharp-mcp.svg)](https://badge.fury.io/js/querysharp-mcp)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Node.js Version](https://img.shields.io/node/v/querysharp-mcp.svg)](https://nodejs.org/)
+[![smithery badge](https://smithery.ai/badge/@WeePulse/querysharp-mcp)](https://smithery.ai/server/@WeePulse/querysharp-mcp)
+
 
 A Model Context Protocol (MCP) server for [Querysharp](https://querysharp.com), enabling AI assistants to help you analyze and optimize your PostgreSQL database performance directly from your code editor.
 
